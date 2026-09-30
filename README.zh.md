@@ -3347,7 +3347,7 @@ dsh plugin --profile web add dshmarket
 - [RexYoung000/rex-harness#ui-workflow](https://github.com/RexYoung000/rex-harness/tree/main/packages/ui-workflow) — 把产品或界面需求编排成可落地的设计规格，提供 /ui-workflow 与 /ui-rerun。分析师通过只读 ui_analyst 运行，主控把报告写入 docs/ui-workflow。
 - [rinDBeans/dsh-miraculous-standard](https://github.com/rinDBeans/dsh-miraculous-standard) — DeepSeek V4 Pro/Flash 统一锚定 agent 预设（官方 API 与 opencode-go）：首请求 Minimal 精确两工具锚定、按模型分流 Pro/Flash 路径、epoch 感知目录管理保证长对话稳定。
 - [rocker2018-droid/dsh-longtask-orchestrator](https://github.com/rocker2018-droid/dsh-longtask-orchestrator) — 长任务编排闭环：Codex 规划/打分/审核，DeepSeek 执行，Kimi 补充（视觉验收/摘要/交叉验证）。
-- [RockingSisyphus/dsh-focus-supervisor#dsh-plugin](https://github.com/RockingSisyphus/dsh-focus-supervisor/tree/main/dsh-plugin) — 大肥鱼监工是 DSH 自制力助手：监督单次或循环任务，采集桌面证据、发送原生提醒，并可最小化或关闭分心的窗口、标签页和应用；支持 Windows 与 GNOME Wayland。
+- [RockingSisyphus/dsh-focus-supervisor#dsh-plugin](https://github.com/RockingSisyphus/dsh-focus-supervisor/tree/main/dsh-plugin) — 大肥鱼监工是 DSH 自制力助手：支持单次与循环预约、会看鼠标的桌面角色、采集证据与诊断日志、到点后的 AI 末轮验收，以及原生提醒和窗口干预；支持 Windows 与 GNOME Wayland。
 - [sailoumili/novel-writer](https://github.com/sailoumili/novel-writer) — 为 DeepSeek Harness 安装一个多智能体小说创作预设：一个统筹队长派单五个专职子代理——架构世界、策划剧情、管理人物、执笔写文、质检复核。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) — 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) — 通过 stdio MCP 将 dsh 连接到本地 SandBase Harness 运行时，用于管理代理与会话、流式执行任务、检查产物和取消工作。
@@ -3628,6 +3628,7 @@ dsh plugin --profile web add dshmarket
 - [miiaowuwu/dsh-sound-lab](https://github.com/miiaowuwu/dsh-sound-lab) — DSH 声音工坊：在会话结束、弹出选项、请求许可与停止时播放指定音效，支持 AI 角色语音生成与音效库管理。
 - [mingzeng21/dsh-notion](https://github.com/mingzeng21/dsh-notion) — 通过官方 Notion MCP（OAuth + PKCE）把 dsh 连接到 Notion：通过 `mcp__notion__*` 工具搜索、读写页面、数据库与评论。
 - [moon09300731/dsh-peak-cost-mode](https://github.com/moon09300731/dsh-peak-cost-mode) — 在 DeepSeek 高峰计价时段（北京时间 09:00–12:00、14:00–18:00，价格 ×2）自动切换 caveman 超精简输出省 token，标题栏常驻状态徽章，档位切换时弹提醒。
+- [MurasakiIzumi/dsh-quake-alert](https://github.com/MurasakiIzumi/dsh-quake-alert) — DeepSeek Harness 的实时灾害预警：日本地震（P2PQuake）与 JMA 紧急地震速报、海啸、气象电文，全球地震（EMSC/USGS）与 NOAA 海啸，中国大陆地震（CENC via Wolfx）及 nmc.cn 暴雨、地质灾害预警，美国 NWS 与加拿大 ECCC 的洪水、降雨、风暴潮预警——按你关注的地域与阈值匹配播报。
 - [mzzsfy/dsh-plugin#dsh-turn-notify](https://github.com/mzzsfy/dsh-plugin/tree/main/packages/dsh-turn-notify) — 回合事件通知：完成/出错/被中断/等待审批/AI 提问/达到上限六类事件，经声音、系统弹窗、页内提示、webhook、IM、宿主桌面通知通道推送，多窗口只响一次。
 - [NattoCB/dsh-plugin-notifications](https://github.com/NattoCB/dsh-plugin-notifications) — 在设置中新增卡片，对话轮次完成时弹出系统通知与可选提示音。
 - [nicecx/dsh-relay](https://github.com/nicecx/dsh-relay) — 把 agent 的审批与提问诉求推送到 iMessage / 邮件 / 微信通道，回复 `#编号 批准/拒绝/回答` 即可处理，无需打开网页。
