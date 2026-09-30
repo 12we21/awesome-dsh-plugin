@@ -1795,6 +1795,7 @@ dsh plugin --profile web add dshmarket
 - [ai-fu-cn/dsh-plugin-memos-code-retrospect](https://github.com/ai-fu-cn/dsh-plugin-memos-code-retrospect) — 编码任务复盘记忆：每轮对话后用本地 LLM 蒸馏被否决方案/踩坑/工程约束，按 type:rejected_solution 写入 MemOS，编码任务时对这类记忆加权召回。
 - [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) — 主动联想记忆 + Astra 式上下文管理：自动唤回（固定边界注入，前缀缓存友好）/自动沉淀/技能固化/交接账本与 PLAN 白板跨窗口续命/水位感知（窗口自动适配当前模型）。本地 Markdown 存储，模型无关，零依赖；词法 0GB 兜底，可选语义档。
 - [akslcw/dsh-negative-ledger](https://github.com/akslcw/dsh-negative-ledger) — 证据约束的负面知识账本：记录被证伪的路径（command_failed / file_missing）及其结果与前置条件证据，重复尝试时警告或拦截，证据变化后自动解除。
+- [AllenWES365/dsh-local-memory](https://github.com/AllenWES365/dsh-local-memory) — 给 DeepSeek Harness 的跨项目长期记忆：每个项目各存各的库，另有一次性看遍全部的查询视图；还能不打开会话就直接从项目的 git 历史播种记忆。
 - [AndyYang12345/dsh-butler-memory](https://github.com/AndyYang12345/dsh-butler-memory) — PostgreSQL 持久个人记忆：MCP 记忆工具 + 可查看记忆与候选的 Web 面板。
 - [aqsk-BLG/dsh-memory](https://github.com/aqsk-BLG/dsh-memory) — DeepSeek Harness 分层文件记忆，提供工作区隔离的 USER/MEMORY 笔记、后台沉淀与混合会话召回。
 - [Asher-2000/dsh-memory-connect](https://github.com/Asher-2000/dsh-memory-connect) — 跨会话记忆插件（v0.6.1，npm 包 @asherliner/dsh-memory-connect）：自动提取、SQLite FTS5 索引、RRF 语义召回（每轮注入系统提示词）、定时维护、LLM 智能合并（自动接入 ctx.llm）、上下文爆炸防护、全局身份 Soul（~/.dsh/soul.md）。v0.5.0 新增：时态上下文图谱（valid_from/valid_until/supersedes，reviseMemory 追加式修正）、信任模型（历史记忆作为不可信参考注入，当前指令绝对优先）、轮末自动摘要。v0.6.0 新增：本地语义 embedding（BAAI/bge-small-zh-v1.5，embed_server.py 提供，余弦相似度 + 与 FTS5 的 RRF 融合，纯本地无云端调用，CPU 约 232 条/秒）。v0.6.1 修复 path 配置 ~ 展开。零配置装完即用。
@@ -3702,6 +3703,7 @@ dsh plugin --profile web add dshmarket
 - [YuMo226/dsh-task-notify](https://github.com/YuMo226/dsh-task-notify) — 任务完成时弹出 Windows 原生系统通知（通知中心横幅）：目标完成或 Agent 结束一轮。
 - [YZz-S/dsh-notifier](https://github.com/YZz-S/dsh-notifier) — 任务完成或需要确认/输入时发送操作系统原生通知：Windows toast、macOS osascript、Linux notify-send。
 - [zhengjy01/dsh-notify](https://github.com/zhengjy01/dsh-notify) — 系统级桌面通知：回合完成 / 工作流完成横幅，需要审批时弹出模态提醒（macOS osascript / Linux notify-send）。
+- [zhengjy01/dsh-task-dispatcher](https://github.com/zhengjy01/dsh-task-dispatcher) — 滴答清单任务派发器：按间隔从指定清单拉取到期任务写入今日任务文件，仅在任务集变化时通知（微信 ClawBot / flomo / macOS）；可为每个任务单独开一个 headless DSH 会话自动执行（worker 超时可配），并可选只在 DeepSeek 空闲（优惠）时段开跑——高峰期把任务排到下个空闲窗口而不是立刻执行；带 Web 设置面板（延迟回写队列、省钱模式时段与状态）与 dispatcher_status / dispatcher_config / dispatcher_run / dispatcher_report 工具。
 - [zhengjy01/dsh-ticktick](https://github.com/zhengjy01/dsh-ticktick) — 基于官方 OAuth Open API 双向同步滴答清单（TickTick/Dida365）任务：拉取各清单任务、创建/更新/完成/删除、按标题去重的一键同步，带 Web 设置面板。
 - [ZIye1208/dsh-approval-voice](https://github.com/ZIye1208/dsh-approval-voice) — DSH Web GUI 中出现审批、提问或计划审批弹窗时，播放提示音并中文语音播报，避免漏看待处理请求。
 - [zzx-dear/dsh-capybara-notify](https://github.com/zzx-dear/dsh-capybara-notify) — 水豚秘书：桌面宠物气泡+叮咚通知、告警收件箱 API、会话智能提醒（任务完成/需要确认/阻塞）、磁盘/HTTP/进程巡检脚本，以及每日高口碑插件推荐，另附 API 冒烟测试。
