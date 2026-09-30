@@ -941,6 +941,7 @@ dsh plugin --profile web add dshmarket
 - [HaoyueQin/dsh-usage-statistics-panel](https://github.com/HaoyueQin/dsh-usage-statistics-panel) — 用量统计设置面板：26 周活跃热力图、按日 Token 趋势与缓存命中率曲线、模型用量环形图与明细、时间范围筛选、汇总卡片，支持历史会话回扫与无损重建。
 - [haozheou/dsh-discipline-guard](https://github.com/haozheou/dsh-discipline-guard) — DSH Agent 纪律卫士：在 harness 边界强制四道闸门（循环熔断、Token 成本熔断、路由切换警示、计划审批卡），模型无法用文字绕过；🛡 芯片一键解除，daily 档对有缓存路由零打扰，把无缓存失控从每回合数百万 token 封顶到约 50 万。
 - [hb-degithub/dsh-usage-guard](https://github.com/hb-degithub/dsh-usage-guard) — 用量统计面板：静默按模型采集 token、活跃热力图、趋势图、费用估算与每日超限守卫。
+- [hbgdjb/dsh-mimo-quota](https://github.com/hbgdjb/dsh-mimo-quota) — 模型额度面板：自动统计 Token 用量、消费金额、请求次数与趋势构成，内置可编辑定价。
 - [helloworld1631/dsh-volcengine-usage](https://github.com/helloworld1631/dsh-volcengine-usage) — 一个使用本地控制台登录态、可拖动的 DeepSeek Harness Web 火山引擎 Coding Plan 用量卡片。
 - [Hou-DL/dsh-token-pulse](https://github.com/Hou-DL/dsh-token-pulse) — DSH 设置内的本地 Token 用量热图：GitHub 风格周/月/季度/年视图、每日小时级展开、模型与供应商 Top 5，历史持久化，删除会话不丢数据。零联网、零计费。
 - [hoyyang/dsh-agent-billing](https://github.com/hoyyang/dsh-agent-billing) — dsh web 的 Agent 计费与用量可观测：会话日志直扫记账（zstd 解压、逐事件时间戳入账、水位+lastSeq 双防双计）、多账号按 provider/模型费率档案、per-window 实时徽标（React fiber 读窗口会话 id，切会话即切账单）、玻璃拟态面板（14 天趋势/预算告警/中转站余额/332 模型官方价库）。
