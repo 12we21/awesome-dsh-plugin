@@ -90,6 +90,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [NEINC1/muche-dsh-plugin](https://github.com/NEINC1/muche-dsh-plugin) - Chat panel for the MuChe companion with per-user backend settings, plus an outbound bridge that runs tasks on the user's local dsh.
 - [Qulierm/orbital-agents](https://github.com/Qulierm/orbital-agents) - Persistent Endeavour and Challenger peer sessions for DeepSeek Harness that plan, execute sequential tasks, and verify reported results.
 - [syyr1987/dsh-linghun](https://github.com/syyr1987/dsh-linghun) - A judgment core for DeepSeek Harness: a cognition loop that gives every decision a source and attribution and drives planning to a close, hippocampus memory that condenses running experience into reusable knowledge, and a customizable persona card (name, personality, communication style). Requires DSH ^0.1.0-rc.7.
+- [WDahah/portable-dsh-multi-agent-plugin](https://github.com/WDahah/portable-dsh-multi-agent-plugin) - Route each task to one model and its review to a different one, with qualification evidence, failover and a durable journal.
 - [yunxiyang/dsh-loop-continue](https://github.com/yunxiyang/dsh-loop-continue) - Resumes an agent turn that ended after narrating its next action without calling a tool: the guard replays the turn log on agent/turn-stopping, asks a judge model one true/false question, and steers the same turn to run one more step.
 
 ### UI Enhancements
