@@ -2574,7 +2574,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-cal](https://github.com/173787247/dsh-wsl-cal) - Read-only khal calendar list.
 - [173787247/dsh-wsl-clipboard](https://github.com/173787247/dsh-wsl-clipboard) - Reads and writes the Windows clipboard from WSL.
 - [173787247/dsh-wsl-clock](https://github.com/173787247/dsh-wsl-clock) - Detects WSL2 clock skew versus Windows that can break TLS and tokens.
-- [173787247/dsh-wsl-compose](https://github.com/173787247/dsh-wsl-compose) - Docker Compose ps/logs; up/down double-gated.
+- [173787247/dsh-wsl-compose](https://github.com/173787247/dsh-wsl-compose) - Docker Compose ps/logs with richer status; up/down double-gated.
 - [173787247/dsh-wsl-cred](https://github.com/173787247/dsh-wsl-cred) - Safe Git Credential Manager hints for WSL without exposing secrets.
 - [173787247/dsh-wsl-db](https://github.com/173787247/dsh-wsl-db) - Read-only psql + redis-cli probes.
 - [173787247/dsh-wsl-distro](https://github.com/173787247/dsh-wsl-distro) - Reports the current WSL distro and warns about multi-distro setups.
@@ -2586,7 +2586,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) - Injects WSL distro, Linux path mapping, /mnt/c CRLF and git caveats, and NODE_USE_ENV_PROXY into the system prompt.
 - [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) - Advises or applies allowlisted Windows portproxy for a WSL listen port, preferring the kit :3081 relay and launch token for local dsh UI.
 - [173787247/dsh-wsl-fetch](https://github.com/173787247/dsh-wsl-fetch) - Registers a wsl-proxy ctx.web fetch provider so official web_fetch uses undici ProxyAgent through HTTP(S)_PROXY instead of connecting from WSL to a DNS-pinned public IP (the official path that produces TypeError: fetch failed behind a Windows proxy).
-- [173787247/dsh-wsl-git](https://github.com/173787247/dsh-wsl-git) - Capped Git status / diff --stat (no full patches).
+- [173787247/dsh-wsl-git](https://github.com/173787247/dsh-wsl-git) - Capped Git status / diff --stat / log --oneline (no full patches).
 - [173787247/dsh-wsl-github](https://github.com/173787247/dsh-wsl-github) - Uses a GitHub App to report open PRs and the latest Actions run for the current repo without returning secrets.
 - [173787247/dsh-wsl-glab](https://github.com/173787247/dsh-wsl-glab) - Read-only glab MR / issue / ci status.
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) - Probes nvidia-smi and GPU visibility inside WSL.
@@ -2594,7 +2594,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) - Probes Windows-host Ollama, LM Studio, vLLM, and llama-server from WSL, compares ctx, and reports /v1/models apiReady versus TCP.
 - [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) - Bridges Feishu, WeCom, DingTalk, QQ, Slack, Discord, Telegram and Mattermost into dsh agents (outbound WS/Stream/Gateway/long-poll/webhook), with im_status, optional local Whisper ASR, plain-text outbound for QQ/DingTalk/Telegram/Mattermost, and env CSV allowlists (DSH_IM_*_ALLOWED_USER_IDS). Empty allowedUserIds means EVERYONE can drive your agent — set a whitelist before exposing a bot.
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) - Call TypeSafe Jev / OpenRouter System One for noul, choice, and score (jev_ask / jev_check / jev_rank).
-- [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) - Read-only kubectl get / describe / logs for dsh on WSL.
+- [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) - Read-only kubectl get / describe / logs / contexts for dsh on WSL (configurable log tail).
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
 - [173787247/dsh-wsl-llamacpp](https://github.com/173787247/dsh-wsl-llamacpp) - OpenAI-compatible client for llama.cpp / Unsloth Desktop (default :8080).
 - [173787247/dsh-wsl-mail](https://github.com/173787247/dsh-wsl-mail) - Mail list/search via himalaya / notmuch (no send).
@@ -2603,8 +2603,8 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
 - [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) - Shows a short Windows MessageBox or toast (BalloonTip) from WSL when a long task finishes.
 - [173787247/dsh-wsl-obscura](https://github.com/173787247/dsh-wsl-obscura) - Optional Obscura headless-browser tools from WSL (obscura_status / obscura_fetch / obscura_mcp_hint). Not the same as dsh-wsl-browser win_open_url (Windows GUI browser), and not a replacement for dsh-wsl-fetch web_fetch.
-- [173787247/dsh-wsl-obsidian](https://github.com/173787247/dsh-wsl-obsidian) - Bridges a WSL dsh agent to a Windows Obsidian vault on NTFS: obsidian_status/list/search/read/write/append, plus obsidian:// open via the Windows app. Keep the vault under /mnt/<drive>/ so Obsidian can watch files; Linux-disk vaults via \\wsl$ are unreliable.
-- [173787247/dsh-wsl-ollama](https://github.com/173787247/dsh-wsl-ollama) - Local Ollama status / list / chat / embed for dsh on WSL.
+- [173787247/dsh-wsl-obsidian](https://github.com/173787247/dsh-wsl-obsidian) - Bridges a WSL dsh agent to a Windows Obsidian vault on NTFS: status/list/search/read/write/append, wikilink resolve, write/append require confirm=true, plus obsidian:// open. Keep the vault under /mnt/<drive>/; Linux-disk vaults via \\wsl$ are unreliable.
+- [173787247/dsh-wsl-ollama](https://github.com/173787247/dsh-wsl-ollama) - Local Ollama status / list / chat / embed for dsh on WSL (unreachable status includes Windows/WSL gateway hints).
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) - Converts Linux and Windows paths with /mnt/c caveats for WSL.
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browse WSL directories under / and /mnt for workspace picking (start/filter; im-workspace shortcuts).
@@ -2614,7 +2614,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-rclone](https://github.com/173787247/dsh-wsl-rclone) - Read-only rclone listremotes / lsf / about.
 - [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) - Sandboxed ripgrep / fd / ast-grep under allowRoots (defaults include ~/.dsh/im-workspace).
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) - Read-only pass / age secrets with allowPrefixes; reveal defaults to false.
-- [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file.
+- [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file (clear ok:false + hint when clipboard has no image).
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) - Hints how to forward the Windows OpenSSH agent into WSL without dumping keys.
 - [173787247/dsh-wsl-struct](https://github.com/173787247/dsh-wsl-struct) - Sandboxed jq / yq / read-only sqlite3.
 - [173787247/dsh-wsl-systemd](https://github.com/173787247/dsh-wsl-systemd) - Read-only systemd --user list / show / journal.
