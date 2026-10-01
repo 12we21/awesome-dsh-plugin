@@ -1612,6 +1612,7 @@ dsh plugin --profile web add dshmarket
 - [jermaine123123/agent-context-editor#deepseek-harness](https://github.com/jermaine123123/agent-context-editor/tree/main/adapters/deepseek-harness) — Agent Context Editor 是一个可以手动排除、编辑和选择性压缩 AI 对话上下文的跨 Agent 插件，同时支持搜索、筛选、选择、隐藏、恢复和撤销对话内容，并保留原始 Session。
 - [Jesse-njx/dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息：本机任意会话都可像 Claude Code 一样列出并互发消息，基于本地心跳注册表与收件箱。
 - [JessenReinhart/dsh-snapcompact](https://github.com/JessenReinhart/dsh-snapcompact) — DSH 的位图帧上下文压缩插件：把被丢弃的对话历史渲染成像素字体 PNG 帧，交给支持视觉的模型直接读回；整个过程本地、确定，不调用任何辅助模型。
+- [JoblessJoe/smart-compaction](https://github.com/JoblessJoe/smart-compaction) — Lets the model trigger compaction itself at a safe point via a compact_now tool (works mid-turn), plus a context_status tool reporting real token usage against the session's actual context window.
 - [john-walks-slow/dsh-message-datetime](https://github.com/john-walks-slow/dsh-message-datetime) — 每轮对话开始向模型上下文注入单行时间戳读数（星期 / 日期 / 时间 / UTC 偏移 / IANA 时区），收尾再注入 Turn ended 关闭读数——模型始终知道现在几点、今天星期几、上一轮何时结束，日期运算与跨轮间隔不再靠猜；轻量时钟感知，每条约 30 token。
 - [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) — 两阶段会话题词：会话进行中即时关键词题名，空闲后再调用最经济的预算模型精修，并附带一句话摘要。
 - [JRJRJPRO/dsh-chat-tree](https://github.com/JRJRJPRO/dsh-chat-tree) — 把一个对话的所有分支画成聊天区旁边的一棵可点击的树，支持收藏、自定义图标与颜色、分支合并与拆分、撤回感知的布局，以及带记忆的 Claude Code 分支。
@@ -2532,6 +2533,7 @@ dsh plugin --profile web add dshmarket
 - [YuanyuanMa03/dsh-funnel](https://github.com/YuanyuanMa03/dsh-funnel) — 摄入时点的工具输出治理：保留 error/warning 行与头尾，全文落盘留指针供模型按需读回；覆盖所有返回文本的工具，小结果原样通过。
 - [YUEEEEY/dsh-desktop-tools](https://github.com/YUEEEEY/dsh-desktop-tools) — dsh 环境管理插件：自动获取 Rust/Tauri 桌面宿主（按系统从 dsh-desktop-host 下载，无 Release 时源码构建），运行时一键更新、Windows 平台兼容自动适配、DeepSeek 官方计费，并内置工作区代码编辑器。
 - [yuioi666/dsh-conversation-nav-dots](https://github.com/yuioi666/dsh-conversation-nav-dots) — DSH 网页端对话导航点 — 快速跳转用户消息。
+- [yuloong07-star/dsh-prompt-system](https://github.com/yuloong07-star/dsh-prompt-system) — 输入框内的提示词优化器：结合对话历史、工作区文件与会话选定模型，把草稿改写为十一节分析式提示词，支持一键撤销。
 - [yunxiyang/dsh-web-search-litellm](https://github.com/yunxiyang/dsh-web-search-litellm) — ctx.web 搜索提供方：通过 LiteLLM 代理走 OpenAI Responses API 调用 DeepSeek 原生服务端 web_search，复用 LITELLM_API_KEY，无需新密钥。
 - [Yur0918/dsh-user-addons](https://github.com/Yur0918/dsh-user-addons) — 会话输入区拖拽上传文件、Token 用量胶囊与额度跟踪、会话归档管理，三合一日常插件。
 - [Yurzi/dsh-pdf-mineru](https://github.com/Yurzi/dsh-pdf-mineru) — 基于 MinerU 的统一文档解析，支持自托管与官方云双 Provider、DSH 原生后台任务、不可变产物缓存与请求合并。
