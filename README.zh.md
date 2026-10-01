@@ -2513,6 +2513,7 @@ dsh plugin --profile web add dshmarket
 - [xiajiajun516/dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) — 一键备份、导出、导入与迁移整套 DSH 配置：设置、插件、MCP、技能与工作区。密钥默认不导出；若选择包含，则以 AES-256-GCM 加密而非明文写出。导入先预览、自动备份并可回滚，profile 可保存多套配置，远程同步经私有 Git 仓库推送可移植配置且不含密钥。
 - [Xiamu-ssr/dsh-wind-aifin](https://github.com/Xiamu-ssr/dsh-wind-aifin) — 将 Wind 七个金融 MCP 域和 Wind Alice 接入 DSH，并仅在宿主凭证边界内解析 WIND_API_KEY。
 - [xianmua/dsh-apis-plugin](https://github.com/xianmua/dsh-apis-plugin) — 把任意一套 HTTP 接口注册成 agent 可用的文档查询与请求双工具。
+- [xianyuyijinban/boardwise#dsh-plugin](https://github.com/xianyuyijinban/boardwise/tree/main/dsh-plugin) — 立创 EDA Pro（EasyEDA Pro）原理图离线审查，给 dsh 加四个工具——一次性 checkup 报告、架构骨架、本机安装体检，以及只读优先的在线编辑器桥，全部由本机 boardwise CLI 驱动。
 - [xiaoshi7915/dsh-kb-manager](https://github.com/xiaoshi7915/dsh-kb-manager) — 本地知识库管理：多格式导入、CJK 感知分块、sqlite-vec 向量 + BM25 混合检索与 bge-reranker-base 重排序、快照恢复、kbpack 导入导出与跨库检索，提供 22 个 agent 工具与 Web 面板。
 - [xiaoyuink/dsh-image-create](https://github.com/xiaoyuink/dsh-image-create) — 在 DSH 内直接文生图/图生图：对接 OpenAI 兼容图像接口，提供 Agent 生图工具、多供应商自动降级，以及带生成历史的侧栏工作台。
 - [xie129716/computer-user-vision](https://github.com/xie129716/computer-user-vision) — computer-user 分叉的 Windows 电脑操作插件：13 个 computer_* 工具，读取屏幕并驱动鼠标键盘。模型支持图像输入时截图直接作为图片返回，附精确的图像→屏幕映射，无需外接 OCR；控件以 UI Automation 引用返回，点击落在精确矩形上；Ctrl+Alt+Esc 可阻断所有调用。
