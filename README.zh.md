@@ -3480,6 +3480,7 @@ dsh plugin --profile web add dshmarket
 - [JohnXu22786/github-mcp](https://github.com/JohnXu22786/github-mcp) — GitHub 开发者工作台 MCP server（dsh bundle）：23 个 MCP 工具覆盖仓库、issue、PR、代码审查与搜索，零运行时依赖，支持 PAT 与 OAuth 双认证。
 - [JohnXu22786/worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 按任务隔离的 git worktree 工作区，覆盖创建/同步/收尾全生命周期：任务名自动派生分支、合并目标双重校验、内置批量清理——全程零手工 git 操作。
 - [kaixinbaba/dsh-git-workbench](https://github.com/kaixinbaba/dsh-git-workbench) — DeepSeek Harness Git 开发工作台：采集分支、状态、worktree、stash 和最近提交，并通过命令、工具与设置界面管理 Git 工作区。
+- [kangtsang/dsh-worktree-space](https://github.com/kangtsang/dsh-worktree-space) — Worktree Space：将一个可包含多个 Git 仓库的工作区任务放进独立的任务空间目录——参与的每个仓库使用同一个任务分支各开一个 worktree；空间自动注册为 DSH 工作区，会话直接在其中开工，多个任务并行推进、互不干扰。收尾时可合并回各仓库目标分支、移除 worktree，并把 Git 未跟踪的文件归档到指定目录；结束任务时可选把未提交的变更和合并冲突交给 agent 处理。
 - [KannaKuron/dsh-ide-git](https://github.com/KannaKuron/dsh-ide-git) — 侧边栏里的 JetBrains 风格 Git 工具窗口：带 ahead/behind 角标的分支树、可按文本/作者/日期/路径筛选的提交图谱、逐文件行级 diff、变更列表与提交框，以及分支、标签、贮藏操作和合并、变基、优选、重置、抓取/拉取/推送。
 - [kaziii/dsh-github-connector#github](https://github.com/kaziii/dsh-github-connector/tree/main/packages/github/github) — GitHub Device Flow 授权与对话内 PR 工作流：输入框上方的状态条支持创建 / AI 审查 / 合并 PR，另有 github_* 工具用于搜索、Issue 与 PR 读写。
 - [Kevin-McIsaac/dsh-workspace-git-badge#dsh-git-badge](https://github.com/Kevin-McIsaac/dsh-workspace-git-badge/tree/main/dsh-git-badge) — DSH 的 Git 状态徽章：侧边栏工作区行徽章与输入行徽章，显示当前会话工作区的 git 状态，通过 SSE 事件驱动保持实时。
