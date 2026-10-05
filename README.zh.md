@@ -3686,6 +3686,7 @@ dsh plugin --profile web add dshmarket
 - [STARDUSTLC666/dsh-slack](https://github.com/STARDUSTLC666/dsh-slack) — Slack 双向通信（notify/channels/inbox/reply/health 五工具），Socket Mode 免公网回调。
 - [stuarthu/dsh-update-notifier](https://github.com/stuarthu/dsh-update-notifier) — 每小时检查 npm 上已安装插件的新版本，并询问升级其中哪些。
 - [suuuuuu-1/dsh-discord](https://github.com/suuuuuu-1/dsh-discord) — DeepSeek Harness 的 Discord 原生远程控制器：通过私信、需提及机器人的服务器频道及 Thread 操作持久化的编程 Agent Session，并支持斜杠命令、进度更新、工具审批、结构化问题、图片和文本附件。
+- [sviktor75/dsh-sound-notification](https://github.com/sviktor75/dsh-sound-notification) — 当任意会话的回复完成（上升音调）或提出问题/请求（下降音调）时播放提示音，带点击静音徽章。
 - [sxl19951101/dsh-done-sound](https://github.com/sxl19951101/dsh-done-sound) — DeepSeek Harness Web GUI 的不同触发情况可分别设置音频提醒：支持正常完成、中断、出错、等待确认、自动重连成功五种场景，每种场景都有独立音频配置和默认音效；出错后自动重连，等待时长可自定义（10-300 秒）；附带社区音色库下载；已适配 DSH 0.1.5-rc.2。
 - [tangjx2007/dsh-audio-cue](https://github.com/tangjx2007/dsh-audio-cue) — DeepSeek Harness 音效提示：智能体需要确认、回合完成、后台任务结束或失败时播放短提示音，内置 5 套音色、逐事件开关与音量、免打扰规则，配置存放在宿主设置文档。
 - [TaoYe599/dsh-notify](https://github.com/TaoYe599/dsh-notify) — DSH 桌面通知：页面开着时弹网页通知（回合结束与待回复问题），浏览器关掉后由 Host 对已完成的回合弹 Windows 原生通知。
