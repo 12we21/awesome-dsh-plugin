@@ -322,6 +322,7 @@ dsh plugin --profile web add dshmarket
 - [GooDAnDReaDY/dsh-russian-lang](https://github.com/GooDAnDReaDY/dsh-russian-lang) — 给 DeepSeek Harness 的「设置 - 通用 - 语言」加入俄语，覆盖核心界面与生态插件的词条。提供会话 Markdown 导出、消息内嵌翻译、实时排版、斜杠命令别名与 Alt+L 布局更正，以及一张设置卡片，全部通过运行时 locale 快照实现，不修改核心文件。
 - [GooodWei/arcana](https://github.com/GooodWei/arcana) — DeepSeek Harness 的悬浮命令甲板：把所有斜杠命令列成可执行按钮，悬停看介绍，按使用次数排序。
 - [gorban/dsh-job-stop](https://github.com/gorban/dsh-job-stop) — 在会话头部的后台任务列表里停止正在运行的任务，确认弹窗会再次显示完整命令。
+- [gordan-code/dsh-jev-advisor](https://github.com/gordan-code/dsh-jev-advisor) — 为 DSH 的选择题提示添加面向用户的 TypeSafe Jev 第二意见卡片，展示推荐、概率分布、置信度、原始 JSON 与一键采纳。
 - [guchang/draw2code](https://github.com/guchang/draw2code) — 运行在 dsh-better-sidebar 中的 Excalidraw 协作原型插件：结构化澄清产品需求、保护用户手工修改的人机画板更新，以及基于原型的前端生成。
 - [guhanfei-ai/dsh-mindmap](https://github.com/guhanfei-ai/dsh-mindmap) — 对话式 Markdown 思维脑图工作台：逐步编辑完整文档，实时同步右侧可视化，并在工作目录中打开、管理和导出脑图。
 - [guo-ziao/dsh-interrupt-button](https://github.com/guo-ziao/dsh-interrupt-button) — 发送按钮旁的绿色打断按钮：运行时一键静默中断 AI，AI 停止后总结进展并向你征求新要求，支持自定义打断提示词。
