@@ -3920,6 +3920,7 @@ dsh plugin --profile web add dshmarket
 - [myd74108520/cadence-skill](https://github.com/myd74108520/cadence-skill) — 面向 Cadence Virtuoso 版图工程师的 SKILL 脚本助手：官方文档锚定的 API 检索（5 本 IC6.1.8 手册 3557 条，签名带置信度，查不到绝不臆造）＋不执行代码的深度静态检查——词法深度坐标系可精确判定跨行循环体与同行闭合，覆盖迭代中删除（copy 位置敏感）、printf 占位符与实参对账、循环内 nth O(N^2)、废弃 API（带页码引用），另有危险需求拦截与 CIW 错误日志定位修复。宿主半区零第三方依赖。
 - [mzzsfy/dsh-plugin#dsh-maintain](https://github.com/mzzsfy/dsh-plugin/tree/main/packages/dsh-maintain) — DSH 版本与运维一体化：自动发现新版本、一键升级、安全重启，重启后页面自动恢复。
 - [NamesMT/dsh-home-hosted](https://github.com/NamesMT/dsh-home-hosted) — 通过 home-hosted 让 dsh web 随开机自动启动：用随包固定版本的依赖运行该面板，安装或移除其开机自启项（systemd、launchd、XDG autostart、Windows 运行键或任务计划程序），并通过 dsh 设置页与 6 个 agent 工具管理其服务器、自启项与界面。
+- [Neo65536-engineer/dsh-agent-log](https://github.com/Neo65536-engineer/dsh-agent-log) — 从本机会话日志只读还原的工作报告：用了哪些工具、各调用多少次、执行了哪些命令、读写哪些文件、测试有没有通过、失败了几次及原因、消耗多少 Token，以及最后完成了没有。
 - [netori/galfree](https://github.com/netori/galfree) — 在 DSH 里制作 Ren'Py galgame 的工作台：宿主侧项目服务（写网关 + git 快照、方言子集解析器、推导进度、只由人盖的审读戳、钉版 SDK 校验与试玩、本地发布）收在一条接缝后面，由内置 Web 工作台面板与 agent 工具驱动。
 - [nicecx/dsh-auto-approver](https://github.com/nicecx/dsh-auto-approver) — DSH 权限请求自动审批代理：规则层（黑名单/白名单）+ Hermes Pro 语义裁决（快速失败重试），Hermes 不可用时 fail-closed 转人工；拒绝原因回传发起会话；审批任务入队并与消费端共用忙锁串行化。
 - [nicecx/dsh-design-review](https://github.com/nicecx/dsh-design-review) — 设计方案与事故教训强制交叉评审：自动识别设计文档写入并入队（tier=review），外部评审结论投递回发起会话，approved 的防复发措施以 append-only + 冲突检测方式追加到守则文件。
