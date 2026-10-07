@@ -833,6 +833,7 @@ dsh plugin --profile web add dshmarket
 - [zenvertao/dsh-inline-comments](https://github.com/zenvertao/dsh-inline-comments) — 选中即批注，刷新亦留存；随消息发送，模型逐条回应。
 - [zerorigin-studio/dsh-deepseek-chat](https://github.com/zerorigin-studio/dsh-deepseek-chat) — 网页对话入口插件：侧边栏一键打开 chat.deepseek.com 独立窗口（dsh-desktop 桥接），纯网页环境自动回退内嵌打开。
 - [zerorigin-studio/dsh-desktop-shell](https://github.com/zerorigin-studio/dsh-desktop-shell) — 把 dsh web 界面封装成原生 Windows 桌面窗口，内置桌面客户端，带系统托盘、开机自启与协议文件分发。
+- [zeusxx/dsh-composer-live](https://github.com/zeusxx/dsh-composer-live) — DSH Web 输入框 Markdown 实时渲染与输入增强——代码块语法高亮、列表引用续项、格式工具栏。
 - [zhang24xiao/dsh-snippets](https://github.com/zhang24xiao/dsh-snippets) — 管理 DSH Web 界面的 CSS 与 JS 代码片段：启用的 CSS 注入为 style 元素，启用的 JS 在页面内执行；提供侧栏底部快捷开关，并在设置导航里有自己的页面，并可选本地文件夹监听与 Gist 同步。
 - [zhangliang0115/ai-plugin#dsh-plugin](https://github.com/zhangliang0115/ai-plugin/tree/main/dsh-plugin) — aipx 工具包：技能之外还有 Hub Console 控制台——用约 4 个元工具代理全部 MCP 服务器，含服务器池健康、工具级启停、工具目录，以及直观展示 mcp_search 返回结果的搜索试验场。
 - [zhangTELL/dsh-diagram](https://github.com/zhangTELL/dsh-diagram) — 将聊天中的 mermaid 代码块原位渲染为图表（流程图/时序图/类图/状态图/ER图/甘特图/饼图），支持放大、源码切换、复制 PNG 与下载 SVG。
