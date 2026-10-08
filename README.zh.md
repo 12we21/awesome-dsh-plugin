@@ -201,6 +201,7 @@ dsh plugin --profile web add dshmarket
 - [CAI-MH/dsh-agent-group-panel](https://github.com/CAI-MH/dsh-agent-group-panel) — 飞书多助手机器人控制台：开启/关闭/重连守护进程、状态与最近动态、直达任务工作区。
 - [caisiyang123/dsh-tick-rail](https://github.com/caisiyang123/dsh-tick-rail) — 会话刻度线导航条：你发的每条消息一格刻度，点亮峰值随鼠标移动、两侧均匀衰减，悬停预览消息摘要，点击或键盘跳转到对应位置。
 - [Canary-Builds/dsh-mobile-ui](https://github.com/Canary-Builds/dsh-mobile-ui) — 为 DeepSeek Harness 现有 Web 界面加上触屏友好的导航、布局微调与独立 PWA 样式。
+- [CaT-Hode/DSH-app](https://github.com/CaT-Hode/DSH-app) — 共用 DSH Web 配置、对话与插件的 Windows Electron 客户端，提供启动日志、更新恢复与诊断。
 - [causebefore/dsh-pomodoro](https://github.com/causebefore/dsh-pomodoro) — DSH Web 番茄钟：提供可配置专注/休息循环、可拖动迷你面板，以及站内提醒、提示音和浏览器通知。
 - [cayan0x/dsh-fold-context](https://github.com/cayan0x/dsh-fold-context) — 自动折叠 DSH 对话中的系统/上下文消息——将思考块、工具调用和工具结果合并为可展开的分组折叠条。
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏终端 UI：像素鲸鱼顶栏、实时工作状态行、思考流式展开。
@@ -3041,6 +3042,7 @@ dsh plugin --profile web add dshmarket
 - [Chu-Xin-r/wanjiqi-meme](https://github.com/Chu-Xin-r/wanjiqi-meme) — 玩机器（6657 直播间）烂梗技能包：22771 条真实弹幕蒸馏而成，涵盖玩机器式弹幕烂梗、CS×DOTA 双料梗、选手锐评与解说吐槽。
 - [Crayonnan/dsh-math-modeling-skills-Gatecraft-](https://github.com/Crayonnan/dsh-math-modeling-skills-Gatecraft-) — 面向 DeepSeek Harness 的门控式数学建模 skill 套件：五阶段流水线、阶段门、国奖写作范式、灵敏度分析、统计诊断与竞赛预设。
 - [creght-dev/skills](https://github.com/creght-dev/skills) — Creght 平台建站技能包：CLI 拉取/推送同步、页面与组件规范、CMS、表单、Auth、SEO、发布与版本回滚。
+- [d0ublecl1ck/dsh-skill-dollar](https://github.com/d0ublecl1ck/dsh-skill-dollar) — 用 $name 手势调用 DSH skill（与 / 命令不冲突），带输入框候选菜单，并让 $name 获得与 /name 相同的蓝色文本引用高亮。
 - [DaLongggggg/dsh-skill-manager#plugin](https://github.com/DaLongggggg/dsh-skill-manager/tree/master/plugin) — 在设置中管理 DSH 已安装技能：列表、搜索、查看渲染后的文档、复制内容、打开文件夹、软删除到可恢复的回收站、立即试用。
 - [dataelement/dsh-plugin-coaligne](https://github.com/dataelement/dsh-plugin-coaligne) — 安装 CoAligne 团队协作的 coaligne-workflow skill；MCP 连接由登录后的 CoAligne Desktop 提供，不安装 Desktop 则无法使用。
 - [dennisrongo/dsh-plugins#dsh-skills](https://github.com/dennisrongo/dsh-plugins/tree/main/plugins/dsh-skills) — 技能提供者：将整个 @dennisrongo/skills 目录作为一个 npm 依赖安装，无需克隆仓库或链接目录即可完成技能的安装与更新。
