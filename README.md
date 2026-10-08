@@ -2665,8 +2665,11 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-terraform](https://github.com/173787247/dsh-wsl-terraform) - Terraform/OpenTofu plan summary + state list (never apply).
 - [173787247/dsh-wsl-tmux](https://github.com/173787247/dsh-wsl-tmux) - Read-only tmux list + capture-pane.
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) - Writes a Windows shortcut and tray launcher to start dsh web in WSL, with Health/Restart and the :3081 launch-token URL.
+- [173787247/dsh-wsl-uia](https://github.com/173787247/dsh-wsl-uia) - Windows UI Automation from WSL: enumerate top-level windows, read a bounded element tree, and wait for or trace the path to a named element.
 - [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) - Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem (workspace namespaces; optional IM crumb via vecmemOnReply).
 - [173787247/dsh-wsl-vllm](https://github.com/173787247/dsh-wsl-vllm) - OpenAI-compatible vLLM client (default :8000).
+- [173787247/dsh-wsl-winctl](https://github.com/173787247/dsh-wsl-winctl) - Enumerate and control Windows top-level windows from WSL: activate, minimize, maximize, restore, move, resize, set always-on-top, close.
+- [173787247/dsh-wsl-winshot](https://github.com/173787247/dsh-wsl-winshot) - Capture a Windows window to a WSL file, whole or cropped to a region or to a named UI element.
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) - Lists WSL distros and validates a Linux workspace path for DSH.
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) - Gives read-only advice for Windows .wslconfig memory and mirrored networking.
 - [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) - Add a WSL workspace from the web GUI without needing to install dsh or related tools again inside WSL. Bash commands and file read/write operations run within the local WSL distribution on the host machine, while Windows files remain accessible.
