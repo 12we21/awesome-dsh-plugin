@@ -2928,6 +2928,7 @@ dsh plugin --profile web add dshmarket
 - [tangzheng202202/dsh-voice-live](https://github.com/tangzheng202202/dsh-voice-live) — 基于火山流式 ASR/TTS 的实时双工语音：回复朗读、打断、唤醒词、实时字幕、30 个中文音色与先响应后思考；在 DSH monorepo 内构建。
 - [TaoruiLiu19/dsh-gsv](https://github.com/TaoruiLiu19/dsh-gsv) — 将本地高性能 TTS 引擎 GSV-TTS-Lite 实时接入 DeepSeek Harness：语音预设、自动朗读、引擎配置助手、朗读按钮与设置面板。
 - [toddpan/dsh-xiaozhi](https://github.com/toddpan/dsh-xiaozhi) — 把小智语音助手接入 DSH Web：DSH 作为 MCP 工具提供方，把 35 个 DSH Web 接口封装成 16 个语音友好工具，覆盖工作区、会话、对话、模型、设置与文件；默认出站 WebSocket 连到小智 MCP 接入点（无需公网 IP 和端口转发），可同时绑定多台设备，并自带实时刷新状态的 DSH 设置页。
+- [underworld-oddball/sh-volume-shuff](https://github.com/underworld-oddball/sh-volume-shuff) — 输入框工具行里、模型选择框左边的扬声器按钮——单击翻到「你最新提问的开头」并闪烁光标，从那里读到最新回复结尾（走 dsh-tts，回退浏览器语音）；按住图标后在页面上单击即可挑选任意朗读起点；按住上滑调出竖式混音台，分别控制页内媒体音量与系统输出音量。
 - [wangzhanchao883/dsh-hold-to-talk](https://github.com/wangzhanchao883/dsh-hold-to-talk) — 输入框上的单手、免键盘输入：鼠标在输入框按住、说话、松手，文字直接进草稿；上滑取消，不留半句。不用去瞄麦克风按钮，也不用记快捷键，手始终不用离开输入区——另一只手正忙的时候，这一点才是关键。识别完全在本机完成（SenseVoice + sherpa-onnx），无需 API key，音频不出本机。
 - [WayneYu430/dsh-voice-agent#voice-app](https://github.com/WayneYu430/dsh-voice-agent/tree/master/packages/voice-app) — dsh 的对话式语音前端 Agent：通过 ByteDance Duplex 自然对话，把语音请求委派给后台任务，并用语音回报异步结果。
 - [WizisCool/dsh-ears](https://github.com/WizisCool/dsh-ears) — 面向 DeepSeek Harness (dsh) 的语音输入插件：输入框的麦克风按钮把语音转成草稿文本，支持多种语音识别后端，可选经 dsh 自有 LLM 路由润色，并带原生设置页。
