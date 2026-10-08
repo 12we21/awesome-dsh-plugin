@@ -2615,6 +2615,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-compose](https://github.com/173787247/dsh-wsl-compose) - Docker Compose ps/logs with richer status; up/down double-gated.
 - [173787247/dsh-wsl-cred](https://github.com/173787247/dsh-wsl-cred) - Safe Git Credential Manager hints for WSL without exposing secrets.
 - [173787247/dsh-wsl-db](https://github.com/173787247/dsh-wsl-db) - Read-only psql + redis-cli probes.
+- [173787247/dsh-wsl-defender](https://github.com/173787247/dsh-wsl-defender) - Windows security posture from WSL: Defender real-time state and signature age, recent detections, exclusions, and firewall profiles.
 - [173787247/dsh-wsl-distro](https://github.com/173787247/dsh-wsl-distro) - Reports the current WSL distro and warns about multi-distro setups.
 - [173787247/dsh-wsl-dns](https://github.com/173787247/dsh-wsl-dns) - Compares WSL versus Windows DNS resolution for common endpoints.
 - [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) - Reports Docker CLI, context, and daemon reachability in WSL, plus vLLM :8000 /v1/models health and GPU runtime hints.
@@ -2622,6 +2623,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) - Opens a WSL Linux path in Windows Cursor, VS Code, or Notepad (optional line/column; win_editor_status).
 - [173787247/dsh-wsl-encoding](https://github.com/173787247/dsh-wsl-encoding) - Reports PowerShell, cmd, and LANG encoding for UTF-8 versus code-page issues.
 - [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) - Injects WSL distro, Linux path mapping, /mnt/c CRLF and git caveats, and NODE_USE_ENV_PROXY into the system prompt.
+- [173787247/dsh-wsl-eventlog](https://github.com/173787247/dsh-wsl-eventlog) - Read recent Windows event log entries from WSL, filtered by log name, level, provider and time window.
 - [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) - Advises or applies allowlisted Windows portproxy for a WSL listen port, preferring the kit :3081 relay and launch token for local dsh UI.
 - [173787247/dsh-wsl-fetch](https://github.com/173787247/dsh-wsl-fetch) - Registers a wsl-proxy ctx.web fetch provider so official web_fetch uses undici ProxyAgent through HTTP(S)_PROXY instead of connecting from WSL to a DNS-pinned public IP (the official path that produces TypeError: fetch failed behind a Windows proxy).
 - [173787247/dsh-wsl-git](https://github.com/173787247/dsh-wsl-git) - Capped Git status / diff --stat / log --oneline (no full patches).
@@ -2645,13 +2647,17 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-ollama](https://github.com/173787247/dsh-wsl-ollama) - Local Ollama status / list / chat / embed for dsh on WSL (unreachable status includes Windows/WSL gateway hints).
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) - Converts Linux and Windows paths with /mnt/c caveats for WSL.
+- [173787247/dsh-wsl-perf](https://github.com/173787247/dsh-wsl-perf) - Windows host performance from WSL: CPU, memory, disk and top processes.
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browse WSL directories under / and /mnt for workspace picking (start/filter; im-workspace shortcuts).
 - [173787247/dsh-wsl-pkg](https://github.com/173787247/dsh-wsl-pkg) - Dependency tree summaries: npm / pip / cargo.
 - [173787247/dsh-wsl-playwright](https://github.com/173787247/dsh-wsl-playwright) - Headless Playwright fetch (title + body text) in WSL.
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding, with a 3080/3081 uiPlaybook for the dsh web relay and launch token.
+- [173787247/dsh-wsl-power](https://github.com/173787247/dsh-wsl-power) - Windows power state from WSL: active power plan, all schemes, battery, sleep timeout and hibernation availability.
 - [173787247/dsh-wsl-rclone](https://github.com/173787247/dsh-wsl-rclone) - Read-only rclone listremotes / lsf / about.
+- [173787247/dsh-wsl-registry](https://github.com/173787247/dsh-wsl-registry) - Read-only Windows registry access from WSL, restricted to an allowlist of key prefixes; list a key's values or its child keys.
 - [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) - Sandboxed ripgrep / fd / ast-grep under allowRoots (defaults include ~/.dsh/im-workspace).
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) - Read-only pass / age secrets with allowPrefixes; reveal defaults to false.
+- [173787247/dsh-wsl-service](https://github.com/173787247/dsh-wsl-service) - Read Windows service state from WSL: list services, or inspect one by name with its dependencies, logon account and binary path.
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file (clear ok:false + hint when clipboard has no image).
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) - Hints how to forward the Windows OpenSSH agent into WSL without dumping keys.
 - [173787247/dsh-wsl-struct](https://github.com/173787247/dsh-wsl-struct) - Sandboxed jq / yq / read-only sqlite3.
