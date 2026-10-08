@@ -2277,7 +2277,6 @@ dsh plugin --profile web add dshmarket
 - [leaforbook/dsh-mcp-lazy](https://github.com/leaforbook/dsh-mcp-lazy) — MCP 懒加载路由：自动发现可接管的 MCP，冷态只在工具目录里留一个共享路由，某轮需要哪个服务器才展开它的工具 Schema、轮次结束再收起，让装了很多 MCP 不再每次请求都吃上下文。命名异常、重名或状态不确定的 MCP 不接管；出现任何不确定即恢复原工具可见性，执行、权限与进程生命周期仍归原 MCP。也支持显式的连接层懒加载，含连接保温、有限重连、stdio 与 Streamable HTTP。
 - [LeemanCheung/dsh-agent-preset-recommender](https://github.com/LeemanCheung/dsh-agent-preset-recommender) — 有界、隐私安全的本地扫描器：汇总 Codex、Claude Code、WorkBuddy、CodeBuddy 元数据，原子保存密钥化聚合证据，并确定性推荐 DSH 内置 preset 与可选能力；不保留正文、不联网、不修改 preset。
 - [lemonxiny55/dsh-code-index](https://github.com/lemonxiny55/dsh-code-index) — 结构化代码索引：基于 tree-sitter 的跨 8 种语言（含 C/C++）符号搜索、按 import-graph PageRank 排序并注入系统提示词的限量仓库地图、通过 code_refs 提供的函数级调用图、可选的 code_health 环依赖与孤儿模块检查，以及 working-tree 变更上下文和任务感知代码上下文。
-- [lemonxiny55/dsh-lint-loop](https://github.com/lemonxiny55/dsh-lint-loop) — 零配置 lint 反馈闭环，覆盖 JS/TS、Python、Go 与 Rust：由仓库自带的 eslint / biome / ruff / golangci-lint / cargo clippy 驱动（从配置文件自动探测、优先解析仓库本地 node_modules/.bin、不捆绑任何 linter）提供 lint_diagnostics / lint_workspace_errors / lint_fix 工具，并订阅 harness 的 fs/observed 事件自动注入「本次编辑引入的发现增量」，带完成门禁——为 dsh Agent 带来编辑→lint→一键自动修复的闭环体验。
 - [lemonxiny55/dsh-lsp-diagnostics](https://github.com/lemonxiny55/dsh-lsp-diagnostics) — 实时 LSP 诊断闭环：通过无头 stdio 语言服务器（TypeScript/JavaScript + Python）提供 lsp_diagnostics / lsp_workspace_errors / lsp_hover 工具，并订阅 harness 的 fs/observed 事件自动注入「本次编辑引入的诊断增量」——为 dsh Agent 带来 Cursor 式的编辑→诊断→修复体验。
 - [lengquan88/dsh-dual-auto](https://github.com/lengquan88/dsh-dual-auto) — 双模型 Auto 路由插件：低成本模型直返 / 高成本模型升级 + 逃逸学习闭环（直返答错自动学习指纹，同指纹下次强制升级），状态持久化并与 Python ModelRouter 互通。
 - [Lequait/dsh-proxy-router](https://github.com/Lequait/dsh-proxy-router) — 导入代理订阅并监督本地 mihomo 内核（proxy-provider + url-test 组），取回时直连优先、失败自动切代理并按主机记忆路由；对外只有一个 proxy_router 工具（status/start/stop/test/fetch/routes/forget）。
@@ -3919,6 +3918,7 @@ dsh plugin --profile web add dshmarket
 - [LeemanCheung/dsh-agent-arena](https://github.com/LeemanCheung/dsh-agent-arena) — 在隔离的 Git 工作树中比较编码智能体，并提供确定性验证、评分和显式胜者应用。
 - [lemoncat7/dsh-ssh](https://github.com/lemoncat7/dsh-ssh) — 为 DeepSeek Harness 提供 SSH 配置、浏览器终端、SFTP 浏览、端口转发、代理与会话级 AI 访问。
 - [lemonxiny55/dsh-composition-doctor](https://github.com/lemonxiny55/dsh-composition-doctor) — 只读的 DSH/Cordis 组合诊断与升级预检工具：扫描 profile manifest 与 patch，发现重复 row、hook 顺序和 UI 所有权冲突，比较脱敏快照，分析插件/row/hook 变化，并在明确证据边界的前提下预检目标 DSH release——不会修改真实 profile。
+- [lemonxiny55/dsh-lint-loop](https://github.com/lemonxiny55/dsh-lint-loop) — 面向 DSH 的变更感知质量闭环：编辑后快速 lint 反馈与仅针对新增问题的安全修复，完成前有界验证 lint 增量、TypeScript 和受影响的 Vitest/Jest 测试，并生成区分新增回归与历史债务的 Quality Receipt。
 - [Leo-Ayh-Oday/dsh-orcana#dsh-bundle](https://github.com/Leo-Ayh-Oday/dsh-orcana/tree/main/packages/dsh-bundle) — DeepSeek Harness 运行时治理器：零进展回合引导、按代际绑定的验证证据、基于证据的完成守卫，以及按任务配置限制工具集。
 - [liaoyonghong/dsh-workspace-api](https://github.com/liaoyonghong/dsh-workspace-api) — 把 DSH 工作区暴露为 HTTP API：浏览/搜索/读取文件，并支持自然语言任务（agent 查阅文档后带出处回答）。
 - [lilming123/dsh-api](https://github.com/lilming123/dsh-api) — 把 dsh 内部能力（语言、工作区注册表、agent-status 与 approval 事件）以 HTTP 路由的形式暴露在 dsh 已监听的本地回环 socket 上，前缀 /dsh-api，并通过 /dsh-api/events 提供 SSE 事件推送。
