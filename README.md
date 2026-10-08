@@ -2669,6 +2669,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) - Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem (workspace namespaces; optional IM crumb via vecmemOnReply).
 - [173787247/dsh-wsl-vllm](https://github.com/173787247/dsh-wsl-vllm) - OpenAI-compatible vLLM client (default :8000).
 - [173787247/dsh-wsl-winctl](https://github.com/173787247/dsh-wsl-winctl) - Enumerate and control Windows top-level windows from WSL: activate, minimize, maximize, restore, move, resize, set always-on-top, close.
+- [173787247/dsh-wsl-wininput](https://github.com/173787247/dsh-wsl-wininput) - Targeted Windows input from WSL: invoke a UI Automation element by name, or send keys, clicks and mouse wheel to a chosen window.
 - [173787247/dsh-wsl-winshot](https://github.com/173787247/dsh-wsl-winshot) - Capture a Windows window to a WSL file, whole or cropped to a region or to a named UI element.
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) - Lists WSL distros and validates a Linux workspace path for DSH.
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) - Gives read-only advice for Windows .wslconfig memory and mirrored networking.

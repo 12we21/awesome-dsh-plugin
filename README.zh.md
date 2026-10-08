@@ -2669,6 +2669,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) — 本地向量小记：Ollama embedding + ~/.dsh/vecmem（workspace 命名空间；可选 IM 回合摘要写入）。
 - [173787247/dsh-wsl-vllm](https://github.com/173787247/dsh-wsl-vllm) — 对接 vLLM 的 OpenAI 兼容服务（默认 :8000）。
 - [173787247/dsh-wsl-winctl](https://github.com/173787247/dsh-wsl-winctl) — Windows 窗口控制：激活、最小化、最大化、还原、移动、改尺寸、置顶、关闭。
+- [173787247/dsh-wsl-wininput](https://github.com/173787247/dsh-wsl-wininput) — Windows 定向输入：按名调用 UI 元素，或向指定窗口发送按键、点击与滚轮。
 - [173787247/dsh-wsl-winshot](https://github.com/173787247/dsh-wsl-winshot) — 截取 Windows 窗口到 WSL 文件：整窗、按区域裁剪，或裁剪到指定 UI 元素。
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) — 列出 WSL 发行版并校验可用于 DSH 的 Linux 工作区路径。
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) — 只读查看 Windows .wslconfig，并给出内存与 mirrored 网络建议。
